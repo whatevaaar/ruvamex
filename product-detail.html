@@ -18,16 +18,16 @@
    Ruvamex
   </title>
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script%7CLora:400,700" rel="stylesheet"/>
-  <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
-  <link href="plugins/bakery-icon/style.css" rel="stylesheet"/>
-  <link href="plugins/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <link href="plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet"/>
-  <link href="plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css" rel="stylesheet"/>
-  <link href="plugins/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet"/>
-  <link href="plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"/>
-  <link href="plugins/slick/slick/slick.css" rel="stylesheet"/>
-  <link href="plugins/lightGallery-master/dist/css/lightgallery.min.css" rel="stylesheet"/>
-  <link href="css/style.css" rel="stylesheet"/>
+  <link href="../plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href="../plugins/bakery-icon/style.css" rel="stylesheet"/>
+  <link href="../plugins/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet"/>
+  <link href="../plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css" rel="stylesheet"/>
+  <link href="../plugins/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet"/>
+  <link href="../plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"/>
+  <link href="../plugins/slick/slick/slick.css" rel="stylesheet"/>
+  <link href="../plugins/lightGallery-master/dist/css/lightgallery.min.css" rel="stylesheet"/>
+  <link href="../css/style.css" rel="stylesheet"/>
   <!--HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
   <!--WARNING: Respond.js doesn't work if you view the page via file://-->
   <!--[if lt IE 9
@@ -39,25 +39,6 @@
   <!--[if IE 9]><body class="ie9 lt-ie10"><![endif]-->
  </head>
  <body>
-  <div class="ps-search">
-   <div class="ps-search__content">
-    <a class="ps-search__close" href="#">
-     <span>
-     </span>
-    </a>
-    <form action="do_action" class="ps-form--search-2" method="post">
-     <h3>
-      Enter your keyword
-     </h3>
-     <div class="form-group">
-      <input class="form-control" placeholder="" type="text"/>
-      <button class="ps-btn active ps-btn--fullwidth">
-       Search
-      </button>
-     </div>
-    </form>
-   </div>
-  </div>
   <!-- header-->
   <header class="header header--1">
    <nav class="navigation">
@@ -65,17 +46,17 @@
      <div class="navigation__left">
       <ul class="menu">
        <li class="menu-item-has-children current-menu-item">
-        <a href="index.html">
+        <a href="../index.html">
          Inicio
         </a>
        </li>
        <li>
-        <a href="about-us.html">
+        <a href="../about-us.html">
          Acerca
         </a>
        </li>
        <li>
-        <a href="product-listing.html">
+        <a href="../product-listing.html">
          Productos
         </a>
        </li>
@@ -83,7 +64,7 @@
      </div>
      <div class="navigation__center">
       <a class="ps-logo" href="index.html">
-       <img alt="" src="images/logo-light.png"/>
+       <img alt="" src="../images/logo-light.png"/>
       </a>
      </div>
      <div class="navigation__right">
@@ -100,26 +81,26 @@
    <nav class="navigation--mobile">
     <div class="ps-container">
      <a class="ps-logo" href="#">
-      <img alt="" src="images/logo-light.png"/>
+      <img alt="" src="../images/logo-light.png"/>
      </a>
      <ul class="menu menu--mobile">
       <li class="menu-item-has-children current-menu-item">
-       <a href="index.html">
+       <a href="../index.html">
         Inicio
        </a>
       </li>
       <li>
-       <a href="about-us.html">
+       <a href="../about-us.html">
         Acerca
        </a>
       </li>
       <li>
-       <a href="product-listing.html">
+       <a href="../product-listing.html">
         Productos
        </a>
       </li>
       <li>
-       <a href="contact.html">
+       <a href="../contact.html">
         Contacto
        </a>
       </li>
@@ -131,9 +112,9 @@
     </div>
    </nav>
   </header>
-  <div class="ps-hero bg--cover" data-background="images/hero/product.jpg">
+  <div id="hero-banner"class="ps-hero bg--cover" data-background="../images/hero/product.jpg">
    <div class="ps-hero__content">
-    <h1>
+    <h1 class="prod-name">
      Product Details
     </h1>
     <div class="ps-breadcrumb">
@@ -143,7 +124,7 @@
         Inicio
        </a>
       </li>
-      <li class="active">
+      <li class="active prod-name">
        Product Details
       </li>
      </ol>
@@ -157,182 +138,55 @@
       <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
        <div class="ps-product__thumbnail">
         <span class="ps-badge">
-         <img alt="" src="images/icons/badge-red.png"/>
+         <img alt="" src="../images/icons/badge-red.png"/>
          <i>
-          New
+          Nuevo
          </i>
         </span>
         <span class="ps-badge ps-badge--sale">
-         <img alt="" src="images/icons/badge-brown.png"/>
+         <img alt="" src="../images/icons/badge-brown.png"/>
          <i>
           50%
          </i>
         </span>
         <div class="ps-product__image">
          <div class="item">
-          <a href="images/products/detail/large-1.jpg">
-           <img alt="" src="images/products/detail/large-1.jpg"/>
+          <a href="../images/products/detail/large-1.jpg">
+           <img id="img-main" alt="" src="../images/products/detail/large-1.jpg"/>
           </a>
-         </div>
-         <div class="item">
-          <a href="images/products/detail/large-2.jpg">
-           <img alt="" src="images/products/detail/large-2.jpg"/>
-          </a>
-         </div>
-         <div class="item">
-          <a href="images/products/detail/large-3.jpg">
-           <img alt="" src="images/products/detail/large-3.jpg"/>
-          </a>
-         </div>
-         <div class="item">
-          <a href="images/products/detail/large-4.jpg">
-           <img alt="" src="images/products/detail/large-4.jpg"/>
-          </a>
-         </div>
-         <div class="item">
-          <a href="images/products/detail/large-5.jpg">
-           <img alt="" src="images/products/detail/large-5.jpg"/>
-          </a>
-         </div>
-        </div>
-        <div class="ps-product__preview">
-         <div class="ps-product__variants">
-          <div class="item">
-           <img alt="" src="images/products/detail/variant-1.png"/>
-          </div>
-          <div class="item">
-           <img alt="" src="images/products/detail/variant-2.png"/>
-          </div>
-          <div class="item">
-           <img alt="" src="images/products/detail/variant-3.png"/>
-          </div>
-          <div class="item">
-           <img alt="" src="images/products/detail/variant-4.png"/>
-          </div>
-          <div class="item">
-           <div class="ps-video">
-            <a class="popup-youtube ps-product__video" href="https://www.youtube.com/watch?v=kJQP7kiw5Fk">
-             <img alt="" src="images/products/detail/variant-4.png"/>
-             <i class="fa fa-play">
-             </i>
-            </a>
-           </div>
-          </div>
          </div>
         </div>
        </div>
       </div>
       <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
        <div class="ps-product__info">
-        <h1 class="text-uppercase">
-         Anytime Cakes
+        <h1 id="prod-title"class="text-uppercase">
         </h1>
-        <div class="ps-product__rating">
-         <select class="ps-rating">
-          <option value="1">
-           1
-          </option>
-          <option value="1">
-           2
-          </option>
-          <option value="1">
-           3
-          </option>
-          <option value="1">
-           4
-          </option>
-          <option value="2">
-           5
-          </option>
-         </select>
-        </div>
-        <h3 class="ps-product__price">
-         <del>
-          <span>
-           £
-          </span>
-          330
-         </del>
-         <span>
-          £
-         </span>
-         115
-        </h3>
         <div class="ps-product__desc">
-         <h5>
-          Quick Overview
-         </h5>
+         <h5>Descripción</h5>
          <p>
           Lollipop dessert donut marzipan cookie bonbon sesame snaps chocolate. Cupcake sweet roll sweet dragée dragée. Lollipop dessert donut marzipan cookie bonbon sesame snaps chocolate cake.
          </p>
          <p>
           Toffee chocolate cake apple pie sugar plum sesame snaps muffin cake pudding cupcake. Muffin danish muffin lollipop biscuit jelly beans oat cake croissant.
-         </p>
+        </p>
         </div>
         <div class="ps-product__status">
          <h5>
-          Availability:
-          <span>
-           In stock
-          </span>
+          Disponibilidad:
+          <span>Disponible</span>
          </h5>
          <h5>
-          CATEGORIES:
-          <a href="product-listing.html">
-           Cupcake
-          </a>
-          <a href="product-listing.html">
-           organic
-          </a>
-          <a href="product-listing.html">
-           sugar
+          CATEGORÍAS:
+          <a href="../product-listing.html">
+           Maquinaria
           </a>
          </h5>
         </div>
-        <div class="ps-product__shopping">
-         <form action="do_action" class="ps-form--shopping" method="post">
-          <select class="ps-select" title="Choose Size">
-           <option value="1">
-            Option 1
-           </option>
-           <option value="2">
-            Option 2
-           </option>
-           <option value="3">
-            Option 3
-           </option>
-          </select>
-          <div class="form-group--number">
-           <button class="minus">
-            <span>
-             -
-            </span>
-           </button>
-           <input class="form-control" type="text" value="1"/>
-           <button class="plus">
-            <span>
-             +
-            </span>
-           </button>
-          </div>
-          <div class="ps-product__actions">
-           <a class="mr-10" data-tootip="Favorite" href="whishlist.html">
-            <i class="ba-heart">
-            </i>
-           </a>
-           <a data-tootip="Compare" href="compare.html" title="Compare">
-            <i class="ba-reload">
-            </i>
-           </a>
-          </div>
-         </form>
-        </div>
         <div class="ps-product__sharing">
-         <a class="ps-btn ps-btn--yellow" href="cart.html">
-          Order Now
-         </a>
+         <a class="ps-btn ps-btn--yellow" href="cart.html">Pedir ahora</a>
          <p class="text-right">
-          Share this:
+          Compartir:
           <a href="#">
            <i class="fa fa-facebook">
            </i>
@@ -353,24 +207,7 @@
      <div class="ps-product__content">
       <ul class="tab-list" role="tablist">
        <li class="active">
-        <a aria-controls="tab_01" data-toggle="tab" href="#tab_01" role="tab">
-         Overview
-        </a>
-       </li>
-       <li>
-        <a aria-controls="tab_02" data-toggle="tab" href="#tab_02" role="tab">
-         Review
-        </a>
-       </li>
-       <li>
-        <a aria-controls="tab_03" data-toggle="tab" href="#tab_03" role="tab">
-         PRODUCT TAGs
-        </a>
-       </li>
-       <li>
-        <a aria-controls="tab_04" data-toggle="tab" href="#tab_04" role="tab">
-         ADDITIONAL
-        </a>
+        <a aria-controls="tab_01" data-toggle="tab" href="#tab_01" role="tab">Información</a>
        </li>
       </ul>
      </div>
@@ -383,143 +220,6 @@
         Sweet roll soufflé oat cake apple pie croissant. Pie gummi bears jujubes cake lemon drops gummi bears croissant macaroon pie. Fruitcake tootsie roll chocolate cake Carrot cake cake bear claw jujubes topping cake apple pie. Jujubes gummi bears soufflé candy canes topping gummi bears cake soufflé cake. Cotton candy soufflé sugar plum pastry sweet roll..
        </p>
       </div>
-      <div class="tab-pane" id="tab_02" role="tabpanel">
-       <p>
-        1 review for
-        <strong>
-         Cupcakes Red Flowers
-        </strong>
-       </p>
-       <div class="ps-review">
-        <div class="ps-review__thumbnail">
-         <img alt="" src="images/user/1.jpg"/>
-        </div>
-        <div class="ps-review__content">
-         <header>
-          <select class="ps-rating">
-           <option value="1">
-            1
-           </option>
-           <option value="1">
-            2
-           </option>
-           <option value="1">
-            3
-           </option>
-           <option value="1">
-            4
-           </option>
-           <option value="5">
-            5
-           </option>
-          </select>
-          <p>
-           By
-           <a href="">
-            Alena Studio
-           </a>
-           - November 25, 2017
-          </p>
-         </header>
-         <p>
-          Soufflé danish gummi bears tart. Pie wafer icing. Gummies jelly beans powder. Chocolate bar pudding macaroon candy canes chocolate apple pie chocolate cake. Sweet caramels sesame snaps halvah bear claw wafer. Sweet roll soufflé muffin topping muffin brownie. Tart bear claw cake tiramisu chocolate bar gummies dragée lemon drops brownie.
-         </p>
-        </div>
-       </div>
-       <form action="do_action" class="ps-form--product-review" method="post">
-        <h4>
-         ADD YOUR REVIEW
-        </h4>
-        <div class="row">
-         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <div class="form-group">
-           <label>
-            Name:
-            <sup>
-             *
-            </sup>
-           </label>
-           <input class="form-control" placeholder="" type="text"/>
-          </div>
-          <div class="form-group">
-           <label>
-            Email:
-            <sup>
-             *
-            </sup>
-           </label>
-           <input class="form-control" placeholder="" type="email"/>
-          </div>
-          <div class="form-group">
-           <label>
-            Your rating
-           </label>
-           <select class="ps-rating">
-            <option value="1">
-             1
-            </option>
-            <option value="1">
-             2
-            </option>
-            <option value="1">
-             3
-            </option>
-            <option value="1">
-             4
-            </option>
-            <option value="5">
-             5
-            </option>
-           </select>
-          </div>
-         </div>
-         <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
-          <div class="form-group">
-           <label>
-            Your Review:
-           </label>
-           <textarea class="form-control" rows="6"></textarea>
-          </div>
-          <div class="form-group">
-           <button class="ps-btn ps-btn--yellow">
-            Submit Reviews
-           </button>
-          </div>
-         </div>
-        </div>
-       </form>
-      </div>
-      <div class="tab-pane" id="tab_03" role="tabpanel">
-       <p>
-        Add your tag
-        <span>
-         *
-        </span>
-       </p>
-       <form action="_action" class="ps-form--create-tags" method="post">
-        <div class="form-group">
-         <input class="form-control" placeholder="" type="text"/>
-         <button class="ps-btn ps-btn--yellow">
-          Add Tags
-         </button>
-        </div>
-       </form>
-       <p>
-        Use spaces to separate tags. Use single quotes ( * ) for phrases.
-       </p>
-      </div>
-      <div class="tab-pane" id="tab_04" role="tabpanel">
-       <form action="do_action" class="ps-form--addition" method="post">
-        <div class="form-group">
-         <textarea class="form-control" placeholder="Enter your addition here..." rows="6"></textarea>
-        </div>
-        <div class="form-group">
-         <button class="ps-btn ps-btn--yellow">
-          Submit
-         </button>
-        </div>
-       </form>
-      </div>
      </div>
     </div>
    </div>
@@ -528,22 +228,18 @@
   <div class="ps-related-product">
    <div class="ps-container">
     <div class="ps-section__header text-center">
-     <h3 class="ps-section__title">
-      Related Products
-     </h3>
-     <p>
-      Maybe you like
-     </p>
+     <h3 class="ps-section__title">Productos Relacionados</h3>
+     <p>Tal vez te interese</p>
      <span>
-      <img alt="" src="images/icons/floral.png"/>
+      <img alt="" src="../images/icons/floral.png"/>
      </span>
     </div>
     <div class="ps-section__content">
-     <div class="row">
+     <div id="suggestions-row" class="row">
       <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
        <div class="ps-product">
         <div class="ps-product__thumbnail">
-         <img alt="" src="images/products/1.png"/>
+         <img alt="" src="../images/products/1.png"/>
          <a class="ps-product__overlay" href="product-detail.html">
          </a>
          <ul class="ps-product__actions">
@@ -572,37 +268,17 @@
           Red sugar flower
          </a>
          <p>
-          <a href="product-list.html">
+          <a href="../product-list.html">
            Bakery
           </a>
           -
-          <a href="product-list.html">
+          <a href="../product-list.html">
            Sweet
           </a>
           -
-          <a href="product-list.html">
+          <a href="../product-list.html">
            Bio
           </a>
-         </p>
-         <select class="ps-rating">
-          <option value="1">
-           1
-          </option>
-          <option value="1">
-           2
-          </option>
-          <option value="1">
-           3
-          </option>
-          <option value="1">
-           4
-          </option>
-          <option value="2">
-           5
-          </option>
-         </select>
-         <p class="ps-product__price">
-          £5.00
          </p>
         </div>
        </div>
@@ -611,12 +287,12 @@
        <div class="ps-product">
         <div class="ps-product__thumbnail">
          <span class="ps-badge">
-          <img alt="" src="images/icons/badge-red.png"/>
+          <img alt="" src="../images/icons/badge-red.png"/>
           <i>
-           New
+           Nuevo
           </i>
          </span>
-         <img alt="" src="images/products/2.png"/>
+         <img alt="" src="../images/products/2.png"/>
          <a class="ps-product__overlay" href="product-detail.html">
          </a>
          <ul class="ps-product__actions">
@@ -645,37 +321,17 @@
           Red sugar flower
          </a>
          <p>
-          <a href="product-list.html">
+          <a href="../product-list.html">
            Bakery
           </a>
           -
-          <a href="product-list.html">
+          <a href="../product-list.html">
            Sweet
           </a>
           -
-          <a href="product-list.html">
+          <a href="../product-list.html">
            Bio
           </a>
-         </p>
-         <select class="ps-rating">
-          <option value="1">
-           1
-          </option>
-          <option value="1">
-           2
-          </option>
-          <option value="1">
-           3
-          </option>
-          <option value="1">
-           4
-          </option>
-          <option value="2">
-           5
-          </option>
-         </select>
-         <p class="ps-product__price">
-          £5.00
          </p>
         </div>
        </div>
@@ -684,12 +340,12 @@
        <div class="ps-product">
         <div class="ps-product__thumbnail">
          <span class="ps-badge">
-          <img alt="" src="images/icons/badge-red.png"/>
+          <img alt="" src="../images/icons/badge-red.png"/>
           <i>
-           New
+           Nuevo
           </i>
          </span>
-         <img alt="" src="images/products/3.png"/>
+         <img alt="" src="../images/products/3.png"/>
          <a class="ps-product__overlay" href="product-detail.html">
          </a>
          <ul class="ps-product__actions">
@@ -718,37 +374,17 @@
           Red sugar flower
          </a>
          <p>
-          <a href="product-list.html">
+          <a href="../product-list.html">
            Bakery
           </a>
           -
-          <a href="product-list.html">
+          <a href="../product-list.html">
            Sweet
           </a>
           -
-          <a href="product-list.html">
+          <a href="../product-list.html">
            Bio
           </a>
-         </p>
-         <select class="ps-rating">
-          <option value="1">
-           1
-          </option>
-          <option value="1">
-           2
-          </option>
-          <option value="1">
-           3
-          </option>
-          <option value="1">
-           4
-          </option>
-          <option value="2">
-           5
-          </option>
-         </select>
-         <p class="ps-product__price">
-          £5.00
          </p>
         </div>
        </div>
@@ -757,12 +393,12 @@
        <div class="ps-product">
         <div class="ps-product__thumbnail">
          <span class="ps-badge ps-badge--sale">
-          <img alt="" src="images/icons/badge-brown.png"/>
+          <img alt="" src="../images/icons/badge-brown.png"/>
           <i>
            50%
           </i>
          </span>
-         <img alt="" src="images/products/4.png"/>
+         <img alt="" src="../images/products/4.png"/>
          <a class="ps-product__overlay" href="product-detail.html">
          </a>
          <ul class="ps-product__actions">
@@ -791,49 +427,24 @@
           Red sugar flower
          </a>
          <p>
-          <a href="product-list.html">
+          <a href="../product-list.html">
            Bakery
           </a>
           -
-          <a href="product-list.html">
+          <a href="../product-list.html">
            Sweet
           </a>
           -
-          <a href="product-list.html">
+          <a href="../product-list.html">
            Bio
           </a>
-         </p>
-         <select class="ps-rating">
-          <option value="1">
-           1
-          </option>
-          <option value="1">
-           2
-          </option>
-          <option value="1">
-           3
-          </option>
-          <option value="1">
-           4
-          </option>
-          <option value="2">
-           5
-          </option>
-         </select>
-         <p class="ps-product__price">
-          <del>
-           £8.50
-          </del>
-          £5.00
          </p>
         </div>
        </div>
       </div>
      </div>
      <div class="ps-section__footer text-center">
-      <a class="ps-btn" href="#">
-       Load more
-      </a>
+      <a class="ps-btn" href="#">Ver todos</a>
      </div>
     </div>
    </div>
@@ -845,13 +456,13 @@
       <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
        <div class="ps-site-info">
         <a class="ps-logo" href="index.html">
-         <img alt="" src="images/logo-light.png"/>
+         <img alt="" src="../images/logo-light.png"/>
         </a>
         <p>
          Tart bear claw cake tiramisu chocolate bar gummies dragée
                   lemon drops brownie.
         </p>
-        <ul class="ps-list--social">
+       <ul class="ps-list--social">
          <li>
           <a href="#">
            <i class="fa fa-facebook">
@@ -879,7 +490,7 @@
          Noticias y ofertas
         </h4>
         <div class="form-group">
-         <input class="form-control" placeholder="Your Email..." type="text"/>
+         <input class="form-control" placeholder="Tu Correo..." type="text"/>
          <button>
           Subscríbete
          </button>
@@ -912,17 +523,17 @@
        <ul class="ps-list--payment">
         <li>
          <a href="#">
-          <img alt="" src="images/payment-method/visa.png"/>
+          <img alt="" src="../images/payment-method/visa.png"/>
          </a>
         </li>
         <li>
          <a href="#">
-          <img alt="" src="images/payment-method/master-card.png"/>
+          <img alt="" src="../images/payment-method/master-card.png"/>
          </a>
         </li>
         <li>
          <a href="#">
-          <img alt="" src="images/payment-method/paypal.png"/>
+          <img alt="" src="../images/payment-method/paypal.png"/>
          </a>
         </li>
        </ul>
@@ -959,39 +570,39 @@
     </div>
    </div>
   </div>
-  <!-- Plugins-->
-  <script src="plugins/jquery/dist/jquery.min.js">
+  <!-- ../plugins-->
+  <script src="../plugins/jquery/dist/jquery.min.js">
   </script>
-  <script src="plugins/bootstrap/dist/js/bootstrap.min.js">
+  <script src="../plugins/bootstrap/di../bootstrap.min.js">
   </script>
-  <script src="plugins/owl-carousel/owl.carousel.min.js">
+  <script src="../plugins/owl-carousel/owl.carousel.min.js">
   </script>
-  <script src="plugins/bootstrap-select/dist/js/bootstrap-select.min.js">
+  <script src="../plugins/bootstrap-select/di../bootstrap-select.min.js">
   </script>
-  <script src="plugins/jquery-bar-rating/dist/jquery.barrating.min.js">
+  <script src="../plugins/jquery-bar-rating/dist/jquery.barrating.min.js">
   </script>
-  <script src="plugins/jquery.waypoints.min.js">
+  <script src="../plugins/jquery.waypoints.min.js">
   </script>
-  <script src="plugins/jquery.countTo.js">
+  <script src="../plugins/jquery.countTo.js">
   </script>
-  <script src="plugins/jquery.matchHeight-min.js">
+  <script src="../plugins/jquery.matchHeight-min.js">
   </script>
-  <script src="plugins/jquery-ui/jquery-ui.min.js">
+  <script src="../plugins/jquery-ui/jquery-ui.min.js">
   </script>
-  <script src="plugins/gmap3.min.js">
+  <script src="../plugins/gmap3.min.js">
   </script>
-  <script src="plugins/lightGallery-master/dist/js/lightgallery-all.min.js">
+  <script src="../plugins/lightGallery-master/di../lightgallery-all.min.js">
   </script>
-  <script src="plugins/slick/slick/slick.min.js">
+  <script src="../plugins/slick/slick/slick.min.js">
   </script>
-  <script src="plugins/slick-animation.min.js">
+  <script src="../plugins/slick-animation.min.js">
   </script>
-  <script src="plugins/jquery.slimscroll.min.js">
+  <script src="../plugins/jquery.slimscroll.min.js">
   </script>
   <!-- Custom scripts-->
-  <script src="js/main.js">
+  <script src="../js/main.js">
   </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsUcTjt43mTheN9ruCsQVgBE-wgN6_AfY&amp;region=GB">
+  <script src="../https://maps.googleapis.com/maps/api/js?key=AIzaSyDsUcTjt43mTheN9ruCsQVgBE-wgN6_AfY&amp;region=GB">
   </script>
  </body>
 </html>
