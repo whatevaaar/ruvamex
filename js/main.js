@@ -562,6 +562,31 @@
 
     }
 
+    function whatsapp() {
+        var scrollPos = 0;
+        var element = $('#whatsapp');
+        $(window).scroll(function() {
+            var scrollCur = $(window).scrollTop();
+            if (scrollCur > scrollPos) {
+                // scroll down
+                if (scrollCur > 500) {
+                    element.addClass('active');
+                } else {
+                    element.removeClass('active');
+                }
+            } else {
+                // scroll up
+                element.removeClass('active');
+            }
+
+            scrollPos = scrollCur;
+        });
+
+        element.on('click', function() {
+            window.location.replace(' https://wa.me/5555152448');
+        });
+
+    }
     function backToTop() {
         var scrollPos = 0;
         var element = $('#back2top');
@@ -632,6 +657,7 @@
         inputNumberChange();
         mainSlider();
         backToTop();
+        whatsapp();
         overFlowScrollbar();
     });
 
