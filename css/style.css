@@ -3753,6 +3753,8 @@ a[data-tooltip]:hover:after {
   float: right;
   width: 500px;
   text-align: right;
+  max-width: 32rem;
+  max-height: 20rem;
 }
 
 .ps-block--product-set .ps-block__content {
@@ -10190,3 +10192,115 @@ html .bg--parallax {
 }
 
 /*# sourceMappingURL=style.css.map */
+/* Estilos originales para el modal *
+/* Estilos para el modal */
+/*Estilos del modal*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-dialog {
+  max-width: 600px;
+  margin: auto;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.close {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ccc;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus {
+  outline: none;
+  border-bottom: 1px solid #2767b2;
+}
+
+.modal-form--delivery .form-group label sup {
+  color: red;
+}
+
+.modal-form--delivery .form-group.submit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ps-btn {
+  background-color: #2767b2;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.ps-btn:hover {
+  background-color: #185ba8;
+  cursor: pointer;
+}
